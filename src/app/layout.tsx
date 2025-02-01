@@ -1,13 +1,14 @@
-import type { Metadata } from "next";
+import type { Metadata } from "next"; 
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import clsx from "clsx";
+import { Header } from "@/sections/Header";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Light Saas Landing Page",
-  description: "Template created by Frontend Tribe",
+  title: "Saas Landing Page",
+  description: "Created By Leo",
 };
 
 export default function RootLayout({
