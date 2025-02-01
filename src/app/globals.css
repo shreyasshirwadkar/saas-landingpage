@@ -7,7 +7,13 @@
   .btn-primary {
     @apply bg-black text-white;
   }
-  .btn-text{
-    @apply bg-transparent text-black
+  .btn-text {
+    @apply bg-transparent text-black;
+  }
+  .logo-ticker-img {
+    @apply h-8 w-auto;
+  }
+  .tag {
+    @apply text-sm inline-flex border border-[#222]/10 py-1 px-3 rounded-lg tracking-tight;
   }
 }

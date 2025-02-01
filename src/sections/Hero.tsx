@@ -9,9 +9,7 @@ export const Hero = () => {
       <div className="px-4">
         <div className="md:flex items-center">
           <div className="md:w-[478px] ">
-            <div className="text-sm inline-flex border border-[#222]/10 py-1 px-3 rounded-lg tracking-tight ">
-              Version 2.0 is here
-            </div>
+            <div className="tag ">Version 2.0 is here</div>
             <div className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6">
               Pathway to Productivity
             </div>
@@ -40,9 +38,12 @@ export const Hero = () => {
               className="hidden md:block -top-8 -left-32 md:absolute"
               alt="cylinder-img"
             ></Image>
-            <Image src={noodle} alt="noodle"
-            width={220} 
-            className="hidden lg:block absolute top-[524px] left-[448px] rotate-[30deg]"></Image>
+            <Image
+              src={noodle}
+              alt="noodle"
+              width={220}
+              className="hidden lg:block absolute top-[524px] left-[448px] rotate-[30deg]"
+            ></Image>
           </div>
         </div>
       </div>
